@@ -276,3 +276,106 @@
   border-radius: 16px;
 }
 /* Inspiration-Container Style End Here */
+
+/* Current Target Container Style Start Here */
+.current-target-container {
+  width: 1140px;
+  height: 1442px;
+  margin: 0 auto;
+  margin-top: 140px;
+}
+.current-target-title {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.current-target-title h1 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.current-target-title p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 24px;
+  text-align: center;
+}
+.grid-container {
+  margin-top: 48px;
+  width: 1140px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 5px;
+  position: relative;
+}
+.grid-container div {
+  padding: 40px;
+}
+.grid-container h3 {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+.grid-container p {
+  margin-top: 8px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.grid-container a {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+}
+.grid-container .grid-1 {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.grid-container .grid-2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.grid-container .grid-3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.next-target {
+  margin-top: 111px;
+  width: 1140px;
+  height: 866px;
+}
+.next-target-title {
+  width: 852px;
+  height: 113px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.next-target-title h2 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+}
+.next-target-title p {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+
+/* Current Target Container Style End Here */
