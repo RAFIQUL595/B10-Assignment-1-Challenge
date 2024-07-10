@@ -210,6 +210,7 @@
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
+  margin-top: 16px;
 }
 .developer-group-titlt-1 .developer-group-button {
   margin-top: 32px;
@@ -232,3 +233,46 @@
   bottom: -22px;
 }
 /* Developent-Container Style End Here */
+
+/* Inspiration-Container Style Start Here */
+.inspiration-container {
+  width: 1140px;
+  height: 777px;
+  margin: 0 auto;
+  margin-top: 85px;
+}
+.ispiration-description {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: justify;
+}
+.ispiration-description h3 {
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+}
+.ispiration-description p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 36px;
+}
+.isiprtion-iframe {
+  width: 1076px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.isiprtion-iframe .isiprtion-iframe-video {
+  width: 1076px;
+  height: 550px;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+/* Inspiration-Container Style End Here */
