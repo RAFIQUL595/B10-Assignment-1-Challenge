@@ -97,3 +97,138 @@
   text-decoration: none;
 }
 /* Banner Container Style End Here */
+
+/* Developent-Container Style Start Here */
+.development-container {
+  width: 1140px;
+  height: 1230px;
+  margin: 0 auto;
+  margin-top: 74px;
+  border-radius: 16px;
+  position: relative;
+  background: rgba(13, 19, 33, 0.02);
+}
+.development-description {
+  width: 946px;
+  height: 1235px;
+  margin: 0 auto;
+  margin-top: 80px;
+  position: relative;
+}
+.development-description h2 {
+  position: absolute;
+  left: 30%;
+  color: #0d1321;
+  font-size: 32px;
+  font-weight: 800;
+}
+.development-description p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  top: 6%;
+  left: 6%;
+  right: 5%;
+  position: absolute;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.development-group {
+  width: 946px;
+  height: 336px;
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  margin-top: 13px;
+}
+.developer-group-titlt {
+  width: 477px;
+  height: 220px;
+  margin: 48px;
+  position: relative;
+}
+.developer-group-titlt h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+.developer-group-titlt h5 {
+  margin-top: 16px;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.developer-group-titlt .developer-group-button {
+  margin-top: 32px;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  background-color: white;
+}
+.developer-group-titlt .developer-group-button a {
+  color: #0d1321;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.developer-group-titlt .developer-img {
+  display: flex;
+  position: absolute;
+  left: 608px;
+  bottom: -22px;
+}
+.development-group-2 {
+  width: 946px;
+  height: 336px;
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  margin-top: 13px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.developer-group-titlt-1 {
+  width: 477px;
+  height: 220px;
+  margin: 48px;
+  position: absolute;
+}
+.developer-group-titlt-1 h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+}
+.developer-group-titlt-1 h5 {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.developer-group-titlt-1 .developer-group-button {
+  margin-top: 32px;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  background-color: white;
+}
+.developer-group-titlt-1 .developer-group-button a {
+  color: #0d1321;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.developer-group-titlt-1 .developer-img-1 {
+  display: flex;
+  position: absolute;
+  right: 610px;
+  bottom: -22px;
+}
+/* Developent-Container Style End Here */
