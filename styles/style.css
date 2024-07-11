@@ -77,6 +77,7 @@
   color: #0d1321;
   font-size: 48px;
   font-weight: 800;
+  line-height: 68px;
 }
 .banner-description p {
   color: #0d1321;
@@ -84,6 +85,7 @@
   font-weight: 400;
   opacity: 0.7;
   margin-top: 34px;
+  line-height: 26px;
 }
 .banner-description .banner-button {
   background-color: #0d1321;
@@ -95,6 +97,7 @@
   top: 120%;
   left: 45%;
   text-decoration: none;
+  line-height: 23px;
 }
 /* Banner Container Style End Here */
 
@@ -136,6 +139,7 @@
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
+  line-height: 26px;
 }
 .development-group {
   width: 946px;
@@ -155,6 +159,7 @@
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
+  line-height: 36px;
 }
 .developer-group-titlt h5 {
   margin-top: 16px;
@@ -162,6 +167,7 @@
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
+  line-height: 26px;
 }
 .developer-group-titlt .developer-group-button {
   margin-top: 32px;
@@ -204,6 +210,7 @@
   color: rgba(13, 19, 33, 0.7);
   font-size: 24px;
   font-weight: 700;
+  line-height: 36px;
 }
 .developer-group-titlt-1 h5 {
   color: #0d1321;
@@ -211,6 +218,7 @@
   font-weight: 400;
   opacity: 0.7;
   margin-top: 16px;
+  line-height: 26px;
 }
 .developer-group-titlt-1 .developer-group-button {
   margin-top: 32px;
@@ -262,6 +270,7 @@
   font-weight: 400;
   opacity: 0.7;
   margin-top: 36px;
+  line-height: 26px;
 }
 .isiprtion-iframe {
   width: 1076px;
@@ -283,6 +292,7 @@
   height: 1442px;
   margin: 0 auto;
   margin-top: 140px;
+  margin-bottom: 46px;
 }
 .current-target-title {
   width: 852px;
@@ -305,6 +315,7 @@
   opacity: 0.7;
   margin-top: 24px;
   text-align: center;
+  line-height: 26px;
 }
 .grid-container {
   margin-top: 48px;
@@ -312,7 +323,7 @@
   height: 300px;
   display: grid;
   grid-template-columns: repeat(3, 4fr);
-  gap: 5px;
+  gap: 24px;
   position: relative;
 }
 .grid-container div {
@@ -323,6 +334,7 @@
   color: rgb(13, 19, 33);
   font-size: 24px;
   font-weight: 800;
+  line-height: 36px;
 }
 .grid-container p {
   margin-top: 8px;
@@ -330,6 +342,7 @@
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
+  line-height: 26px;
 }
 .grid-container a {
   margin-top: 24px;
@@ -350,12 +363,12 @@
   border-radius: 16px;
   background: rgba(255, 223, 0, 0.05);
 }
-.next-target {
+.next-target-container {
   margin-top: 111px;
   width: 1140px;
   height: 866px;
 }
-.next-target-title {
+.next-target-contain {
   width: 852px;
   height: 113px;
   margin: 0 auto;
@@ -364,18 +377,69 @@
   align-items: center;
   flex-direction: column;
 }
-.next-target-title h2 {
+.next-target-contain h2 {
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
 }
-.next-target-title p {
+.next-target-contain p {
   margin-top: 24px;
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 400;
   opacity: 0.7;
   text-align: center;
+  line-height: 26px;
+}
+.next-target-description {
+  margin-top: 48px;
+  width: 1140px;
+  height: 705px;
+  position: relative;
+}
+.next-target-title {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 1140px;
+  height: 219px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  position: sticky;
+  margin-bottom: 20px;
+}
+.next-target-flex {
+  width: 941.22px;
+  height: 139px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+.next-target-flex h4 {
+  top: 0;
+  position: absolute;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+}
+.next-target-flex p {
+  top: 40px;
+  position: absolute;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 26px;
+}
+.next-target-flex a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
 }
 /* Current Target Container Style End Here */
 
@@ -425,6 +489,7 @@
   font-weight: 400;
   opacity: 0.7;
   text-align: center;
+  line-height: 26px;
 }
 .support-button-contorl {
   position: relative;
