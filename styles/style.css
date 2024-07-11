@@ -377,5 +377,83 @@
   opacity: 0.7;
   text-align: center;
 }
-
 /* Current Target Container Style End Here */
+
+/* Support Container Style Start Here */
+.suppport-container {
+  margin: 0 auto;
+  width: 1140px;
+  height: 314px;
+  background-image: url(../assets/handshake.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px 0px 59px 0px;
+}
+.support-contain {
+  margin: 0 auto;
+  width: 1044px;
+  height: 186px;
+  margin: 64px 48px;
+}
+.support-title {
+  margin: 0 auto;
+  width: 730px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.support-title h2 {
+  bottom: 71px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+}
+.support-title p {
+  top: 48px;
+  position: absolute;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
+}
+.support-button-contorl {
+  position: relative;
+}
+.support-button[type="text"] {
+  top: 21px;
+  left: 176px;
+  position: absolute;
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  margin: 0 auto;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  padding: 19px 20px 19px 20px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+.support-button[type="submit"] {
+  width: 120px;
+  height: 58px;
+  top: 20px;
+  right: 186px;
+  position: absolute;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+}
+/* Support Container Style End Here */
