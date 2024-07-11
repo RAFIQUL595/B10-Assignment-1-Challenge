@@ -457,3 +457,35 @@
   background-color: rgb(255, 255, 255);
 }
 /* Support Container Style End Here */
+
+/* Footer Container Style Start Here */
+.footer-container {
+  margin-top: 79px;
+  width: 1440px;
+  height: 100px;
+  padding: 32px 150px 32px 150px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-contain {
+  width: 1140px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.footer-title {
+  width: 456px;
+  height: 24px;
+}
+.footer-title {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-social-media {
+  margin-top: 3px;
+}
+/* Footer Container Style End Here */
